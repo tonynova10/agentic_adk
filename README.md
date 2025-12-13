@@ -1,2 +1,41 @@
-# agentic_adk
+# Agentic AI Development with ADK
 Repo with different examples of ADK Agents
+
+## Getting Started
+
+### Setup Environment
+
+You only need to create one virtual environment for all examples in this course. Follow these steps to set it up:
+
+```bash
+# Create virtual environment in the root directory
+python -m venv .venv
+
+# Activate (each new terminal)
+# macOS/Linux:
+source .venv/bin/activate
+# Windows CMD:
+.venv\Scripts\activate.bat
+# Windows PowerShell:
+.venv\Scripts\Activate.ps1
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+Once set up, this single environment will work for all examples in the repository.
+
+### Setting Up API Keys
+
+1. Create an account in Google Cloud https://cloud.google.com/?hl=en
+2. Create a new project
+3. Go to https://aistudio.google.com/apikey
+4. Create an API key
+5. Assign key to the project
+6. Connect to a billing account
+
+After setting the API Keys you are ready to start
+
+In the specific agent folder
+Run this command to see the agent functionality in console: adk run my_agent
+Run thsi command to see the agent functionality through web server adk web --port 8000
