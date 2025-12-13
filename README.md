@@ -37,5 +37,7 @@ Once set up, this single environment will work for all examples in the repositor
 After setting the API Keys you are ready to start
 
 In the specific agent folder
+
 Run this command to see the agent functionality in console: adk run my_agent
-Run thsi command to see the agent functionality through web server adk web --port 8000
+
+Run thsi command to see the agent functionality through web server: adk web --port 8000
