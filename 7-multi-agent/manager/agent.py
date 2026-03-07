@@ -17,7 +17,7 @@ root_agent = Agent(
     to determine which agent to delegate to.
 
     You are responsible for delegating tasks to the following agent:
-    - stock_analyst
+    - stock_analyst   
     - funny_nerd
 
     You also have access to the following tools:
